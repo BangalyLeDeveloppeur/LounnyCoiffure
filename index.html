@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="fr">
+  <meta charset="UTF-8" />
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Photographe professionnel à Bordeaux, spécialisé dans les portraits, mariages et événements. Capturons vos moments précieux avec une touche artistique."
+    />
+    <title>Nina photographe à Bordeaux</title>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "addressRegion": "Nouvelle-Aquitaine",
+          "postalCode": "33200",
+          "addressCountry": "FR"
+        },
+        "telephone": "05 56 67 78 89",
+        "openingHours": "Mo-Fr 10:00-19:00",
+        "image": "URL de l'image",
+        "url": "http://127.0.0.1:5500/index.html"
+      }
+    </script>
+
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+
+    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/maugallery.js"></script>
+    <script src="./assets/scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="top-header">
+        <img
+          class="logoLouny"
+          src="assets/images/logo louny.jpeg"
+          alt="logo louny_Coiffure"
+        />
+        <div class="nav">
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">À propos</a></li>
+              <li><a href="#gallery">Réalisation</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a
+                  class="social-link"
+                  href="https://www.instagram.com/lounycoiffure/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  href="https://www.facebook.com/lounycoiffure/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  href="https://wa.me/33556677889"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div id="header">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner bandd">
+            <div class="carousel-item active">
+              <img
+                src="./assets/images/slider/Coiffeur femme.jpg"
+                class="d-block w-100"
+                alt="image lavage cheveux femme"
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="./assets/images/slider/Salon_coiffure.jpeg"
+                class="d-block w-100"
+                alt="images salon de coiffure"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/slider/Salon_louny_coiffure.jpg"
+                class="d-block w-100"
+                alt="iamge de l'homme-sur-passage-pieton"
+              />
+            </div>
+
+            <div class="band_annonce">
+              <h3>
+                <strong>
+                  Votre style mérite plus qu'une coupe. <br />
+                  Lounny Coiffure l'excellence à chaque geste.</strong
+                >
+              </h3>
+              <button class="btn-contact">Rendez-vous</button>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section>
+          <div id="about">
+            <div class="picture left">
+              <img
+                src="./assets/images/Lounceny.jpeg"
+                class="d-block w-100"
+                alt="image Nina"
+              />
+            </div>
+            <div id="about-me">
+              <h2 class="about-me__title">A propos de moi</h2>
+              <h3 class="about-me__introduction">
+                Devenir coiffeur a toujours été une évidence pour moi. Comme une
+                vocation, presque une prédestination. Sublimer une chevelure,
+                révéler une personnalité, capter le style d'un instant et
+                transformer un visage, voilà ce qui me fait vibrer.
+              </h3>
+              <p class="apropos">
+                Nous passons notre vie à chercher à nous sentir bien dans notre
+                peau, et lorsque nous y touchons enfin, nous n'avons qu'une
+                envie : que ce sentiment dure. C'est ce que je vous propose :
+                révéler votre allure au travers de mon regard, mon approche, ma
+                technique. Sublimer chaque coupe, chaque couleur, chaque détail,
+                afin que vous puisiez de la confiance, de la beauté et de la
+                lumière à chaque fois que vous poserez les yeux sur votre
+                reflet.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div id="gallery">
+            <h3 class="title">Lounny coiffure réalisation</h3>
+            <div class="container py-3">
+              <div class="gallery" style="display: none">
+                <img
+                  data-gallery-tag="Femme"
+                  class="gallery-item"
+                  src="./assets/images/gallery/mariage/coiffure_femme.jpeg"
+                  class="d-block w-100"
+                  alt="image des mariés"
+                />
+                <img
+                  data-gallery-tag="Femme"
+                  class="gallery-item"
+                  src="./assets/images/gallery/mariage/femme_au_salon_coiffure.jpeg"
+                  class="d-block w-100"
+                  alt="image des mariés"
+                />
+
+                <img
+                  data-gallery-tag="Soin de visage"
+                  class="gallery-item"
+                  src="./assets/images/gallery/portraits/Soin_visage.jpg"
+                  class="d-block w-100"
+                  alt="image du portrait nino"
+                />
+
+                <img
+                  data-gallery-tag="Homme"
+                  class="gallery-item"
+                  src="./assets/images/gallery/homme/homme_au_salon_coifure.jpeg"
+                  class="d-block w-100"
+                  alt="image de l'Artiste-au-concert"
+                />
+                <img
+                  data-gallery-tag="Homme"
+                  class="gallery-item"
+                  src="./assets/images/gallery/homme/homme_coiffure.jpeg"
+                  class="d-block w-100"
+                  alt="image de l'Artiste-au-concert"
+                />
+                <img
+                  data-gallery-tag="Homme"
+                  class="gallery-item"
+                  src="./assets/images/gallery/homme/Louny_coiffure.jpeg"
+                  class="d-block w-100"
+                  alt="image de l'Artiste-au-concert"
+                />
+                <img
+                  data-gallery-tag="Homme"
+                  class="gallery-item"
+                  src="./assets/images/gallery/homme/louny_coiffure_home.jpeg"
+                  class="d-block w-100"
+                  alt="image de l'Artiste-au-concert"
+                />
+                <img
+                  data-gallery-tag="Homme"
+                  class="gallery-item"
+                  src="./assets/images/gallery/homme/louny_barber.jpeg"
+                  class="d-block w-100"
+                  alt="image de l'Artiste-au-concert"
+                />
+                <img
+                  data-gallery-tag="Homme"
+                  class="gallery-item"
+                  src="./assets/images/gallery/homme/louny_coiffure_homme.jpeg"
+                  class="d-block w-100"
+                  alt="image de l'Artiste-au-concert"
+                />
+
+                <img
+                  data-gallery-tag="Enfant"
+                  class="gallery-item"
+                  src="./assets/images/gallery/enfant/garçon_coiffure.jpeg"
+                  class="d-block w-100"
+                  alt="image garçon au salon"
+                />
+                <img
+                  data-gallery-tag="Enfant"
+                  class="gallery-item"
+                  src="./assets/images/gallery/enfant/coiffure_enfant.jpeg"
+                  class="d-block w-100"
+                  alt="image enfant au salon"
+                />
+                <img
+                  data-gallery-tag="Enfant"
+                  class="gallery-item"
+                  src="./assets/images/gallery/enfant/garçon_coiffure.jpeg"
+                  class="d-block w-100"
+                  alt="image enfant au salon"
+                />
+                <img
+                  data-gallery-tag="Enfant"
+                  class="gallery-item"
+                  src="./assets/images/gallery/enfant/garçon.jpeg"
+                  class="d-block w-100"
+                  alt="image enfant au salon"
+                />
+              </div>
+            </div>
+            <div class="quote">
+              <figure>
+                <blockquote>
+                  <h3 class="quote__text">
+                    Une coupe n'est pas une ressemblance. Dès lors qu'une
+                    émotion ou une personnalité se traduit en coiffure, elle
+                    cesse d'être un fait pour devenir une allure. L'imperfection
+                    n'existe pas en coiffure. Chaque coupe est unique. Aucune
+                    d'elles n'est figée.
+                  </h3>
+                </blockquote>
+                <figcaption class="quote__author">Louny Coiffure</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div id="services">
+            <h3 class="title">Louny coiffure services</h3>
+            <div class="container">
+              <div class="service">
+                <div class="service__description">
+                  <h3>Coupe de cheveux</h3>
+                  <p>
+                    Une coupe personnalisée qui met en valeur votre visage et
+                    votre personnalité, réalisée avec précision et écoute. Je
+                    vous accueille au salon pour un moment de détente et de
+                    transformation.
+                  </p>
+                </div>
+              </div>
+              <div class="service">
+                <div class="service__description">
+                  <h3>Teinture</h3>
+
+                  <p>
+                    Vous souhaitez une couleur blonde éclatante et lumineuse ?
+                    Bénéficiez d'une coloration professionnelle pour un résultat
+                    homogène et durable.
+                  </p>
+                </div>
+              </div>
+              <div class="service">
+                <div class="service__description">
+                  <h3>Manicure & pédicure</h3>
+                  <p>
+                    Offrez à vos mains et vos pieds un soin complet, entre
+                    limage, polissage et pose de vernis, pour des ongles
+                    impeccables et un moment de détente rien que pour vous.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="quote">
+            <figure>
+              <blockquote>
+                <h4 class="quote__text">
+                  De manière inconsciente, je crois, je guette un regard, une
+                  posture, une chevelure capable de résumer ou plus exactement
+                  de révéler une personnalité.
+                </h4>
+              </blockquote>
+              <figcaption class="quote__author">Louny Coiffure</figcaption>
+            </figure>
+          </div>
+
+          <div id="tarifs">
+            <h3 class="title">Nos tarifs</h3>
+            <div class="tarifs-container">
+              <div class="tarifs-category">
+                <h4>Coupes</h4>
+                <ul class="tarifs-list">
+                  <li><span>Coupe homme</span><span>30 000 GNF</span></li>
+                  <li><span>Coupe femme</span><span>60 000 GNF</span></li>
+                  <li>
+                    <span>Coupe simple enfant (- 12 ans)</span
+                    ><span>20 000 GNF</span>
+                  </li>
+                  <li><span>Taille de barbe</span><span>15 000 GNF</span></li>
+                  <li><span>Autres coiffures</span><span>15 000 GNF</span></li>
+                  <li><span>Curly</span><span>60 000 GNF</span></li>
+
+                  <li><span>Rasage</span><span>20 000 GNF</span></li>
+                  <li><span>Dreads</span><span>50 000 GNF</span></li>
+                  <li><span>Wave</span><span>50 000 GNF</span></li>
+                  <li><span>DreadsLocks</span><span>300 000 GNF</span></li>
+                  <li>
+                    <span>DreadsRenouvelement</span><span>100 000 GNF</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tarifs-category">
+                <h4>Coloration</h4>
+                <ul class="tarifs-list">
+                  <li><span>Coloration jaune</span><span>80 000 GNF</span></li>
+                  <li>
+                    <span>coiffure simple coloration noir</span
+                    ><span>40 000 GNF</span>
+                  </li>
+                  <li>
+                    <span>Teinture autres couleurs</span
+                    ><span>100 000 GNF</span>
+                  </li>
+                  <li>
+                    <span>Coloration complète</span><span>100 000 GNF</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tarifs-category">
+                <h4>Soins & Beauté</h4>
+                <ul class="tarifs-list">
+                  <li><span>manicure femme</span><span>100 000 GNF</span></li>
+                  <li><span>Pédicure</span><span>50 000 GNF</span></li>
+                  <li><span>Manicure</span><span>50 000 GNF</span></li>
+                  <li><span>Soin visage</span><span>80 000 GNF</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="tarifs-note">
+              Tarifs indicatifs, un devis précis vous sera proposé selon la
+              longueur et l'état de vos cheveux.
+            </p>
+            <button class="btn-contact">Rendez-vous</button>
+          </div>
+
+          <div id="horaires">
+            <h3 class="title">Nos horaires</h3>
+            <ul class="horaires-list">
+              <li><span>Lundi</span><span>Fermé</span></li>
+              <li><span>Mardi</span><span>10h00 – 22h00</span></li>
+              <li><span>Mercredi</span><span>10h00 – 22h00</span></li>
+              <li><span>Jeudi</span><span>10h00 – 22h00</span></li>
+              <li><span>Vendredi</span><span>10h00 – 22h00</span></li>
+              <li><span>Samedi</span><span>10h00 – 22h00</span></li>
+              <li><span>Dimanche</span><span>10h00 – 22h00</span></li>
+            </ul>
+          </div>
+
+          <div id="contact">
+            <div class="container">
+              <div class="form-container">
+                <div id="contact">
+                  <div class="container">
+                    <div class="contact-info-container">
+                      <h3>Une question ? Une demande de rendez-vous ?</h3>
+                      <div class="contact-cards">
+                        <div class="contact-card">
+                          <h4>Adresse</h4>
+                          <p>
+                            Taouyah<br />carrefour transit sous immeuble Hadja
+                            N'balia
+                          </p>
+                        </div>
+                        <div class="contact-card">
+                          <h4>Téléphone</h4>
+                          <p>
+                            <a href="tel:0556677889"
+                              >623-21-31-68/662-29-43-58</a
+                            >
+                          </p>
+                        </div>
+                        <div class="contact-card">
+                          <h4>Email</h4>
+                          <p>
+                            <a href="mailto:contact@lounycoiffure.fr"
+                              >contact@lounycoiffure.fr</a
+                            >
+                          </p>
+                        </div>
+                        <div class="contact-card">
+                          <h4>Horaires</h4>
+                          <p>Mardi – Dimanche<br />10h00 – 20h00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="picture right">
+                <img
+                  src="./assets/images/Affiche-coiffure.png"
+                  class="d-block w-100"
+                  alt="image du camera"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <img
+            class="footer-logo"
+            src="assets/images/logo louny.jpeg"
+            alt="logo Louny Coiffure"
+          />
+          <p class="footer-tagline">Votre style, notre passion.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#gallery">Réalisations</a></li>
+            <li><a href="#services">Prestations</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>Taouyah<br />carrefour transit sous immeuble Hadja N'balia</li>
+            <li><a href="tel:623-21-31-68">623-21-31-68/662-29-43-58</a></li>
+            <li>
+              <a href="mailto:contact@lounycoiffure.fr"
+                >contact@lounycoiffure.fr</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Horaires</h4>
+          <ul>
+            <li>Mardi – Vendredi</li>
+            <li>10h00 – 22h00</li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-social">
+          <h4>Suivez-nous</h4>
+          <div class="footer-social-links">
+            <a
+              class="social-link"
+              href="https://www.facebook.com/lounycoiffure/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a
+              class="social-link"
+              href="https://wa.me/33556677889"
+              target="_blank"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Louny Coiffure. Tous droits réservés.</p>
+      </div>
+    </footer>
+  </body>
+</html>
