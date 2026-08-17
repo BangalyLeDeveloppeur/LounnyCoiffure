@@ -462,7 +462,7 @@ button.btn-contact {
   border-bottom: 1px dashed rgba(201, 162, 75, 0.4);
   font-family: var(--font-body);
   color: var(--ink-soft);
-  font-size: 0.95em;
+
 }
 
 .tarifs-list li:last-child {
@@ -478,7 +478,7 @@ button.btn-contact {
 
 .tarifs-note {
   margin-top: 30px;
-  font-size: 0.85em;
+  font-size: calc(1.275rem + 0.3vw);
   font-style: italic;
   color: var(--ink-soft);
 }
@@ -1046,10 +1046,8 @@ input[type="submit"]:hover {
   h3.about-me__introduction {
     width: 100%;
     font-size: 1.3rem;
-}
-.title {
-   
+  }
+  .title {
     font-size: 1.3em;
-}
-
+  }
 }
