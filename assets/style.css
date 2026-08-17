@@ -921,11 +921,6 @@ input[type="submit"]:hover {
   }
 }
 
-
-
-
-
-
 /* ================================
    MENU BURGER
 ================================ */
@@ -954,13 +949,11 @@ input[type="submit"]:hover {
   transition: all 0.3s ease;
 }
 
-
 /* ================================
    VERSION MOBILE
 ================================ */
 
 @media (max-width: 768px) {
-
   .top-header {
     position: relative;
     display: flex;
@@ -1037,4 +1030,26 @@ input[type="submit"]:hover {
   .burger-menu.active span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  .band_annonce {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 70%;
+    height: 80%;
+    opacity: 0.8;
+  }
+  strong {
+    font-size: 0.5rem;
+  }
+  h3.about-me__introduction {
+    width: 100%;
+    font-size: 1.3rem;
+}
+.title {
+   
+    font-size: 1.3em;
+}
+
 }
