@@ -462,7 +462,6 @@ button.btn-contact {
   border-bottom: 1px dashed rgba(201, 162, 75, 0.4);
   font-family: var(--font-body);
   color: var(--ink-soft);
-
 }
 
 .tarifs-list li:last-child {
@@ -799,6 +798,13 @@ input[type="submit"]:hover {
   #about-me p {
     width: 100%;
   }
+  ul.my-4.tags-bar.nav.nav-pills {
+    display: flex;
+    top: 1650px;
+  }
+  .nav-link {
+    padding: 0;
+  }
 }
 
 @media all and (max-width: 1000px) {
@@ -874,6 +880,14 @@ input[type="submit"]:hover {
     right: 0;
     z-index: -1;
   }
+
+  ul.my-4.tags-bar.nav.nav-pills {
+    display: flex;
+    top: 1650px;
+  }
+  .nav-link {
+    padding: 0;
+  }
 }
 
 @media all and (max-width: 650px) {
@@ -918,6 +932,14 @@ input[type="submit"]:hover {
   }
   .picture {
     width: 80%;
+  }
+
+  ul.my-4.tags-bar.nav.nav-pills {
+    display: flex;
+    top: 1650px;
+  }
+  .nav-link {
+    padding: 0;
   }
 }
 
