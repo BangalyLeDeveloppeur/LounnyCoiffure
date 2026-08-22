@@ -71,7 +71,6 @@ body {
 .band_annonce .btn-contact,
 button.btn-contact {
   display: inline-block;
-  margin-top: 20px;
   padding: 12px 32px;
   background: transparent;
   color: var(--gold);
@@ -888,6 +887,10 @@ input[type="submit"]:hover {
   .nav-link {
     padding: 0;
   }
+  #contact .container {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
 }
 
 @media all and (max-width: 650px) {
@@ -922,6 +925,11 @@ input[type="submit"]:hover {
   .service {
     max-width: 90%;
   }
+  #contact .container {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
   #about,
   #contact {
     padding-inline: 2em;
@@ -982,6 +990,10 @@ input[type="submit"]:hover {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+  }
+  #contact .container {
+    flex-direction: column;
+    margin-bottom: 50px;
   }
 
   .logoLouny {
@@ -1059,7 +1071,7 @@ input[type="submit"]:hover {
     transform: translate(-50%, -50%);
     text-align: center;
     width: 70%;
-    height: 95%;
+    height: 98%;
     opacity: 0.8;
   }
   strong {
