@@ -869,7 +869,7 @@ input[type="submit"]:hover {
     flex-direction: column;
   }
   #contact .picture.right {
-    margin-top: 1em;
+    margin-top: 20px;
   }
   .picture.right::before {
     width: 100%;
@@ -897,6 +897,9 @@ input[type="submit"]:hover {
   .contact-social {
     flex-direction: column;
     gap: 15px;
+  }
+  #contact .picture.right {
+    margin-top: 20px;
   }
   .contact-cards {
     grid-template-columns: 1fr;
